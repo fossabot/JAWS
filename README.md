@@ -22,6 +22,7 @@ This stack uses new tools from Amazon Web Services to completely redefine how to
 ## Architecture
 
 ![JAWS stack diagram javascript aws node.js express auroradb dynamodb lambda](https://github.com/servant-app/JAWS/blob/master/site/public/img/jaws_diagram_javascript_aws.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2FJAWS.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2FJAWS?ref=badge_shield)
 
 #### API
 There are no servers included in this stack.  The entire back-end is comprised of Lambda functions which are organized in the `api` folder.  Each of your API URLs points to one of these Lambda functions.  This way, the code for each API Route is completely isolated, enabling you to develop/update/configure/deploy/maintain code for specific API urls at any time without affecting any other part of your application(!!!).  Think of each Lambda function as a "Controller", in traditional MVC structure.
@@ -86,3 +87,6 @@ Your website/client-side application.  These assets can be uploaded and served f
 *  [List Of AWS Tips](https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 * [Amazon Monthly Cost Estimate Calculator](http://calculator.s3.amazonaws.com/index.html)
 * [Set-Up AWS Billing Alerts](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/monitor-charges.html)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2FJAWS.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2FJAWS?ref=badge_large)
